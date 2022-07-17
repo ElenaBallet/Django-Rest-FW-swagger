@@ -15,3 +15,20 @@ pip install -r requirements.txt
 django-admin startproject django_api .
 ```
 
+### 3. Создаем приложение myapi
+
+```python 
+python3 manage.py startapp myapi
+```
+
+### 4. Клонируйте ветку myapi
+TODO 
+```python 
+git clone branch myapi git@github.com:ElenaBallet/Django-Rest-FW-swagger.git
+```
+
+### 5. Создайте суперпользователя
+
+```python 
+python3 manage.py createsuperuser
+```
