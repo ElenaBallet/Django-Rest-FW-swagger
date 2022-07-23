@@ -21,10 +21,10 @@ django-admin startproject django_api .
 python3 manage.py startapp myapi
 ```
 
-### 4. Клонируйте ветку myapi
-TODO 
+### 4. Клонируйте ветку app_myapi
+
 ```python 
-git clone branch myapi git@github.com:ElenaBallet/Django-Rest-FW-swagger.git
+git clone --single-branch --branch app_myapi git@github.com:ElenaBallet/Django-Rest-FW-swagger.git
 ```
 
 ### 5. Создайте суперпользователя
